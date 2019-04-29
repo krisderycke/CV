@@ -93,6 +93,7 @@ img {
     padding:0;  
     background-image: radial-gradient (rgb(54, 53, 53), rgb(241, 241, 81));
     overflow: auto;
+    
    }
 
    .header {
@@ -148,6 +149,31 @@ img {
     }
 }
 
+@media only screen and (max-width:300px) {
+    .info{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+    }
+
+    .schools {
+        grid-row: 1/1;
+        width:100%;
+    }    
+
+    .career {
+        grid-row: 2/2
+    }
+
+    .becode {
+        grid-row:3;
+    }
+
+    .hobbies {
+        grid-row: 4;
+    }
+
+
+}
 
 
 
