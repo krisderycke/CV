@@ -1,1 +1,1 @@
-https://krisderycke.github.io/CV/
+https://krisderycke.github.io/CV
