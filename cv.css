@@ -87,7 +87,7 @@ img {
 
 /* make responsive */
 
-@media only screen and (max-width:768px) {
+@media only screen and (min-width:301px) and (max-width:768px) {
    body { margin-left: 10px;
     margin-right: 10px;
     padding:0;  
@@ -153,10 +153,13 @@ img {
     .info{
         display: grid;
         grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 0;
+        width:100%;
     }
 
     .schools {
         grid-row: 1/1;
+        grid-column: span 1;
         width:100%;
     }    
 
